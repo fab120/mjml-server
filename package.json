@@ -1,0 +1,16 @@
+{
+  "name": "mjml-server",
+  "version": "0.0.1",
+  "description": "MJML Api Server",
+  "main": "index.js",
+  "author": "Fabio Cagliero",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mjml": "^4.0.5"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
