@@ -2,11 +2,9 @@ FROM node:11-alpine
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./
-
-RUN npm install --only=production
-
 COPY . .
+
+RUN yarn install --production --frozen-lockfile --non-interactive
 
 EXPOSE 8000
 
